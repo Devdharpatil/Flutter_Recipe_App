@@ -19,11 +19,11 @@
 
 ## 🌟 Overview
 
-Welcome to **Culinary Compass** – not just another recipe app, but your future indispensable partner in the art of cooking. Crafted with an unwavering commitment to excellence, Culinary Compass aims to be the most intuitive, visually stunning, performant, and genuinely helpful recipe application in the world.
+Welcome to **Culinary Compass** – not just another recipe app, but your future indispensable partner in the art of cooking. Crafted with an unwavering commitment, Culinary Compass aims to be the most intuitive, visually appealing, performant, and genuinely helpful recipe application.
 
-Imagine a seamless and delightful journey from discovering your next favorite meal among thousands of global recipes, to effortlessly planning your week, generating smart shopping lists, and finally, being guided step-by-step through the cooking process with unparalleled clarity. All of this, wrapped in a breathtakingly beautiful and highly responsive interface, with your personal culinary world securely managed and synced via Supabase.
+Imagine a seamless and delightful journey from discovering your next favorite meal among thousands of global recipes to effortlessly planning your week, generating smart shopping lists, and finally, being guided step-by-step through the cooking process with unparalleled clarity. All of this, wrapped in a breathtakingly beautiful and highly responsive interface, with your personal culinary world securely managed and synced via Supabase.
 
-**Our Vision:** To inspire culinary exploration, empower home cooks of all levels, and deliver sheer delight with every interaction, making Culinary Compass an award-winning benchmark for quality and user experience in mobile applications.
+**Our Vision:** To inspire culinary exploration, empower home cooks of all levels, and deliver sheer delight with every interaction, making Culinary Compass a benchmark for quality and user experience in mobile applications.
 
 ---
 
@@ -45,15 +45,14 @@ Culinary Compass is being built in phases, with a rich feature set designed to t
 *   **User Profile & Preferences:** Manage your display name and persistent dietary/cooking goal preferences (e.g., Vegan, Quick & Easy) to tailor your experience.
 
 ### 🍳 Cooking Assistance
-*   **Detailed Recipe View:** Stunning presentation of recipe details including high-quality images, summaries, nutritional information, ingredients, and clear step-by-step instructions.
+*   **Detailed Recipe View:** Presentation of recipe details including high-quality image, summaries, nutritional information, ingredients, and clear step-by-step instructions.
 *   **Cooking Mode:** A focused, distraction-free interface displaying instructions one step at a time, with large text and optional timers, keeping your screen awake while you cook.
-*   **Ingredient Information (Optional):** Tap on ingredients to see more details or potential substitutes.
+*   **Ingredient Information:** Tap on ingredients to see more details or potential substitutes.
 
 ### ⚙️ App Experience
 *   **Modern Minimalist++ UI:** Clean, sophisticated design with ample whitespace, rich textures, fluid transitions, and delightful micro-animations.
 *   **Light & Dark Modes:** Beautifully crafted themes that adapt to your preference, synced with your profile.
 *   **Responsive Design:** Adapts seamlessly to various phone sizes and orientations.
-*   **Secure Credential Management:** API keys and sensitive data are handled securely, never hardcoded.
 *   **Robust Error Handling & Performance:** A stable and performant application that handles issues gracefully.
 
 ---
@@ -95,7 +94,7 @@ To get Culinary Compass running locally for development and contributions:
    * Ensure you have Flutter (latest stable version) installed. See [Flutter installation guide](https://flutter.dev/docs/get-started/install).
    * A code editor like VS Code or Android Studio.
    * Access to a Spoonacular API key.
-   * A Supabase project set up with the required tables (see schema details in phase documentation) and Auth configured.
+   * A Supabase project set up with the required tables and Auth configured.
 
 **2. Clone the Repository:**
    ```bash
@@ -176,24 +175,56 @@ Each `feature_name/` directory is structured into:
 
 ## ❤️ Contributing
 
-We are thrilled you're interested in contributing to Culinary Compass and helping us build a world-class application!
-*(This section should be expanded with specific guidelines once you are ready for external contributions.)*
+Culinary Compass is currently the passionate work of a solo developer which is me. As the project grows and evolves, contributions from the community will be invaluable in helping it reach its full potential!
 
-**General Guidelines (Placeholder):**
-*   Fork the repository.
-*   Create a new branch for your feature or bug fix: `git checkout -b feature/your-feature-name` or `fix/issue-description`.
-*   Ensure your code adheres to the project's linting rules and coding standards.
-*   Write meaningful commit messages.
-*   Create unit and widget tests for your changes.
-*   Push your branch and open a Pull Request with a clear description of your changes.
+If you're excited by the vision of Culinary Compass and have ideas for new features, improvements, bug fixes, or even documentation enhancements, your contributions are warmly welcomed and highly encouraged.
+
+**How to Contribute (General Guidelines):**
+
+1.  **Find an Area to Contribute:**
+    *   Browse the existing [Issues](https_link_to_your_github_repository_here/issues) (if any are open) for areas needing help.
+    *   Think about features from the roadmap or new ideas that align with the app's vision.
+    *   Consider improving documentation, adding more tests, or refining the UI/UX.
+
+2.  **Discuss (Optional but Recommended for Larger Changes):**
+    *   If you plan a significant change, it's a good idea to open an issue first to discuss your ideas and ensure they align with the project's direction.
+
+3.  **Development Process:**
+    *   Fork the repository.
+    *   Create a new branch for your feature or bug fix: `git checkout -b feature/your-brilliant-feature` or `fix/detailed-bug-description`.
+    *   Ensure your code adheres to the project's existing linting rules and coding standards (Clean Architecture, Bloc, etc.).
+    *   Write clear, concise, and meaningful commit messages.
+    *   Add relevant unit and widget tests for your changes to maintain code quality.
+
+4.  **Submit Your Contribution:**
+    *   Push your branch to your fork.
+    *   Open a Pull Request (PR) against the `main` (or `develop`) branch of the Culinary Compass repository.
+    *   Provide a clear and detailed description of your changes in the PR, including the problem you're solving or the feature you're adding, and any relevant context.
+
+Let's collaborate to make Culinary Compass the most delightful and helpful recipe app available! Your skills and passion can make a real difference.
 
 ---
 
 ## 📜 License
 
-*(Choose a license for your project, e.g., MIT, Apache 2.0. Replace this placeholder.)*
+This project is licensed under the MIT License.
 
-This project is licensed under the [Your Chosen License Name] - see the `LICENSE.md` file for details.
+You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+For the full license text, please see the `LICENSE.md` file in the root of this project.
 
 ---
 
